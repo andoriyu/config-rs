@@ -54,7 +54,7 @@ mod env;
 
 pub use config::Config;
 pub use error::ConfigError;
-pub use value::Value;
+pub use value::{Value, ValueKind};
 pub use source::Source;
 pub use file::{File, FileFormat};
 pub use env::Environment;
